@@ -314,6 +314,12 @@ Reset to HEAD - Undo last change
 git reset HEAD  
 ```
 
+Undo last 2 commits
+
+```
+git reset --hard HEAD~2
+```
+
 
 ## Git Branch
 
@@ -499,6 +505,13 @@ Display the modified files with location:
 git log -p
 ```
 
+Check RefLog
+
+```
+git reflog
+```
+
+
 ## Git blame
 
 Display the modification on each line of a file:
@@ -547,3 +560,13 @@ Delete remote branch
 ```
 git push <remote> -delete <branch>
 ```
+
+
+## Clean unknown files
+
+Clean unknown files from working tree
+
+```
+git clean
+```
+

@@ -446,6 +446,7 @@ Always force push after squash
 
 ```
 git push -f origin branch
+```
 
 Squash using rebase, last three branches
 

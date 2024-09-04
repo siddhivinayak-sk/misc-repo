@@ -198,6 +198,9 @@ alias kdelno='k delete node'
 # Exec
 alias kx='wk exec -ti'
 
+# Run
+alias kr='wk run -ti'
+
 # Misc
 alias x='exit'
 
